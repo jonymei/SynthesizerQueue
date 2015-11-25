@@ -11,7 +11,7 @@
 #import "ViewController.h"
 
 
-NSString *const kAppid = @"5445f87d";
+NSString *const kAppid = <#APPID#>;
 
 @interface AppDelegate ()
 
