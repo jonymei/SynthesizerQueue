@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E99802741C058BCC008C573F /* AudioEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E99802731C058BCC008C573F /* AudioEncodeHelper.m */; settings = {ASSET_TAGS = (); }; };
+		E99802761C05906A008C573F /* ABC.txt in Resources */ = {isa = PBXBuildFile; fileRef = E99802751C05906A008C573F /* ABC.txt */; settings = {ASSET_TAGS = (); }; };
 		E9F0EF961C055E1500703FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF951C055E1500703FA4 /* main.m */; };
 		E9F0EF991C055E1500703FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF981C055E1500703FA4 /* AppDelegate.m */; };
 		E9F0EF9C1C055E1500703FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF9B1C055E1500703FA4 /* ViewController.m */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E99802721C058BCC008C573F /* AudioEncodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEncodeHelper.h; sourceTree = "<group>"; };
+		E99802731C058BCC008C573F /* AudioEncodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEncodeHelper.m; sourceTree = "<group>"; };
+		E99802751C05906A008C573F /* ABC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABC.txt; sourceTree = "<group>"; };
 		E9F0EF911C055E1500703FA4 /* SynthesizerQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynthesizerQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F0EF951C055E1500703FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9F0EF971C055E1500703FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +133,8 @@
 				E9F0EF9B1C055E1500703FA4 /* ViewController.m */,
 				E9F0EFD51C05634200703FA4 /* SynthesizerQueue.h */,
 				E9F0EFD61C05634200703FA4 /* SynthesizerQueue.m */,
+				E99802721C058BCC008C573F /* AudioEncodeHelper.h */,
+				E99802731C058BCC008C573F /* AudioEncodeHelper.m */,
 				E9F0EFA01C055E1500703FA4 /* Assets.xcassets */,
 				E9F0EFA51C055E1500703FA4 /* Info.plist */,
 				E9F0EF941C055E1500703FA4 /* Supporting Files */,
@@ -140,6 +147,7 @@
 			children = (
 				E9F0EFCA1C055F6A00703FA4 /* LaunchScreen.storyboard */,
 				E9F0EF951C055E1500703FA4 /* main.m */,
+				E99802751C05906A008C573F /* ABC.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99802761C05906A008C573F /* ABC.txt in Resources */,
 				E9F0EFA11C055E1500703FA4 /* Assets.xcassets in Resources */,
 				E9F0EFCC1C055F6A00703FA4 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -300,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F0EF9C1C055E1500703FA4 /* ViewController.m in Sources */,
+				E99802741C058BCC008C573F /* AudioEncodeHelper.m in Sources */,
 				E9F0EF991C055E1500703FA4 /* AppDelegate.m in Sources */,
 				E9F0EFD71C05634200703FA4 /* SynthesizerQueue.m in Sources */,
 				E9F0EF961C055E1500703FA4 /* main.m in Sources */,
