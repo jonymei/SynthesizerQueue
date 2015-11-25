@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		E99802741C058BCC008C573F /* AudioEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E99802731C058BCC008C573F /* AudioEncodeHelper.m */; settings = {ASSET_TAGS = (); }; };
 		E99802761C05906A008C573F /* ABC.txt in Resources */ = {isa = PBXBuildFile; fileRef = E99802751C05906A008C573F /* ABC.txt */; settings = {ASSET_TAGS = (); }; };
+		E99802791C05B66A008C573F /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99802781C05B66A008C573F /* iflyMSC.framework */; settings = {ASSET_TAGS = (); }; };
 		E9F0EF961C055E1500703FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF951C055E1500703FA4 /* main.m */; };
 		E9F0EF991C055E1500703FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF981C055E1500703FA4 /* AppDelegate.m */; };
 		E9F0EF9C1C055E1500703FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EF9B1C055E1500703FA4 /* ViewController.m */; };
 		E9F0EFA11C055E1500703FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F0EFA01C055E1500703FA4 /* Assets.xcassets */; };
 		E9F0EFAF1C055E1500703FA4 /* SynthesizerQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EFAE1C055E1500703FA4 /* SynthesizerQueueTests.m */; };
 		E9F0EFBA1C055E1500703FA4 /* SynthesizerQueueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0EFB91C055E1500703FA4 /* SynthesizerQueueUITests.m */; };
-		E9F0EFC91C055E7E00703FA4 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F0EFC81C055E7E00703FA4 /* iflyMSC.framework */; settings = {ASSET_TAGS = (); }; };
 		E9F0EFCC1C055F6A00703FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0EFCA1C055F6A00703FA4 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		E9F0EFCE1C055FEA00703FA4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F0EFCD1C055FEA00703FA4 /* CoreTelephony.framework */; };
 		E9F0EFD01C055FF100703FA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F0EFCF1C055FF100703FA4 /* AVFoundation.framework */; };
@@ -45,6 +45,7 @@
 		E99802721C058BCC008C573F /* AudioEncodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEncodeHelper.h; sourceTree = "<group>"; };
 		E99802731C058BCC008C573F /* AudioEncodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEncodeHelper.m; sourceTree = "<group>"; };
 		E99802751C05906A008C573F /* ABC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABC.txt; sourceTree = "<group>"; };
+		E99802781C05B66A008C573F /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		E9F0EF911C055E1500703FA4 /* SynthesizerQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynthesizerQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F0EF951C055E1500703FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9F0EF971C055E1500703FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		E9F0EFB51C055E1500703FA4 /* SynthesizerQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthesizerQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F0EFB91C055E1500703FA4 /* SynthesizerQueueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynthesizerQueueUITests.m; sourceTree = "<group>"; };
 		E9F0EFBB1C055E1500703FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9F0EFC81C055E7E00703FA4 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		E9F0EFCB1C055F6A00703FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9F0EFCD1C055FEA00703FA4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		E9F0EFCF1C055FF100703FA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -77,8 +77,8 @@
 				E9F0EFD41C05601100703FA4 /* SystemConfiguration.framework in Frameworks */,
 				E9F0EFD21C055FFF00703FA4 /* libz.tbd in Frameworks */,
 				E9F0EFD01C055FF100703FA4 /* AVFoundation.framework in Frameworks */,
+				E99802791C05B66A008C573F /* iflyMSC.framework in Frameworks */,
 				E9F0EFCE1C055FEA00703FA4 /* CoreTelephony.framework in Frameworks */,
-				E9F0EFC91C055E7E00703FA4 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E99802771C05B66A008C573F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				E99802781C05B66A008C573F /* iflyMSC.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
 		E9F0EF881C055E1500703FA4 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +134,7 @@
 		E9F0EF931C055E1500703FA4 /* SynthesizerQueue */ = {
 			isa = PBXGroup;
 			children = (
-				E9F0EFC71C055E7E00703FA4 /* ibs */,
+				E99802771C05B66A008C573F /* libs */,
 				E9F0EF971C055E1500703FA4 /* AppDelegate.h */,
 				E9F0EF981C055E1500703FA4 /* AppDelegate.m */,
 				E9F0EF9A1C055E1500703FA4 /* ViewController.h */,
@@ -168,14 +176,6 @@
 				E9F0EFBB1C055E1500703FA4 /* Info.plist */,
 			);
 			path = SynthesizerQueueUITests;
-			sourceTree = "<group>";
-		};
-		E9F0EFC71C055E7E00703FA4 /* ibs */ = {
-			isa = PBXGroup;
-			children = (
-				E9F0EFC81C055E7E00703FA4 /* iflyMSC.framework */,
-			);
-			path = ibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,7 +446,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SynthesizerQueue/ibs",
+					"$(PROJECT_DIR)/SynthesizerQueue/libs",
 				);
 				INFOPLIST_FILE = SynthesizerQueue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -463,7 +463,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SynthesizerQueue/ibs",
+					"$(PROJECT_DIR)/SynthesizerQueue/libs",
 				);
 				INFOPLIST_FILE = SynthesizerQueue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
